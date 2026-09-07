@@ -1,5 +1,9 @@
 {
   "$schema": "https://railway.com/railway.schema.json",
+  "provider": "python",
+  "packages": {
+    "python": "3.11"
+  },
   "build": {
     "builder": "RAILPACK",
     "buildCommand": "pip install -r requirements.txt",
